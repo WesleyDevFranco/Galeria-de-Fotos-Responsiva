@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: darkslategray;
+    font-family: 'Geologica', sans-serif;
+}
+
+a {color: inherit;}
+
+.wraper{
+    display: flexbox;
+    flex-wrap: wrap;
+    
+}
+
+.wraper .img{
+    width:25%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.img{
+    max-width: 100%;
+    margin-top: 2%;
+    
+}
+
+.Title{
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+.Title:hover{
+    color: green;
+}
+
+@media screen and (max-width: 1024px){
+    .wraper .img{width: 33.3%;}
+}
+
+@media screen and (max-width: 768px){
+    .wraper .img{width: 50%;}
+}
+
+@media screen and (max-width: 580px){
+    .wraper .img{width: 100%;}
+}
+
